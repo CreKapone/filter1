@@ -9,7 +9,7 @@
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<2500]:
 //Health & Mana Potions
-ItemDisplay[rvl]: %WHITE%F %PURPLE%Juv
+ItemDisplay[rvl]: %WHITE%Full%PURPLE%JUV
 ItemDisplay[rvs]: %WHITE%lil%PURPLE%juv
 ItemDisplay[hp4]: %WHITE%G %RED%HP
 ItemDisplay[hp5]: %WHITE%S -%RED%HP%WHITE%-
@@ -143,10 +143,10 @@ ItemDisplay[r31]: %RED%¤ %RUNENAME% ¤ %WHITE%[31]
 ItemDisplay[r32]: %RED%¤ %RUNENAME% ¤ %WHITE%[32]
 ItemDisplay[r33]: %RED%¤ %RUNENAME% ¤ %WHITE%[33]
 //High Value Runes (3.0+)
-ItemDisplay[r27]: %RED%¤%BLUE¤ %WHITE%%RUNENAME% %BLUE%¤%RED%¤ %WHITE%[27]
-ItemDisplay[r28]: %RED%¤%BLUE¤ %WHITE%%RUNENAME% %BLUE%¤%RED%¤ %WHITE%[28]
-ItemDisplay[r29]: %RED%¤%BLUE¤ %WHITE%%RUNENAME% %BLUE%¤%RED%¤ %WHITE%[29]
-ItemDisplay[r30]: %RED%¤%BLUE¤ %WHITE%%RUNENAME% %BLUE%¤%RED%¤ %WHITE%[30]
+ItemDisplay[r27]: %RED%¤%BLUE%¤ %WHITE%%RUNENAME% %BLUE%¤%RED%¤ %WHITE%[27]
+ItemDisplay[r28]: %RED%¤%BLUE%¤ %WHITE%%RUNENAME% %BLUE%¤%RED%¤ %WHITE%[28]
+ItemDisplay[r29]: %RED%¤%BLUE%¤ %WHITE%%RUNENAME% %BLUE%¤%RED%¤ %WHITE%[29]
+ItemDisplay[r30]: %RED%¤%BLUE%¤ %WHITE%%RUNENAME% %BLUE%¤%RED%¤ %WHITE%[30]
 //
 
 //misc quest
@@ -284,11 +284,11 @@ ItemDisplay[UNI !ID ci3]:  %RED%¤ %GOLD%%NAME% %RED%¤
 ItemDisplay[!ETH UNI !ID xlt]: %RED%¤ %GOLD%%NAME% %RED%¤
 ItemDisplay[ETH UNI !ID xlt]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 //Tal Rasha Armor
-ItemDisplay[!ETH SET !ID uth]: %RED%¤ %GOLD%%NAME% %RED%¤
-ItemDisplay[ETH SET !ID uth]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
+ItemDisplay[!ETH SET !ID uth]: %RED%¤ %PURPLE%TALS %RED%¤
+ItemDisplay[ETH SET !ID uth]: %WHITE%ETH %RED%¤ %PURPLE%TALS %RED%¤
 //Immortal King's Armor
-ItemDisplay[!ETH SET !ID uar]: %RED%¤ %GOLD%%NAME% %RED%¤
-ItemDisplay[ETH SET !ID uar]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
+ItemDisplay[!ETH SET !ID uar]: %RED%¤ %GREEN%IK ARMOR %RED%¤
+ItemDisplay[ETH SET !ID uar]: %WHITE%ETH %RED%¤ %GREEN%IK ARMOR %RED%¤
 
 
 //Gloves
@@ -313,8 +313,8 @@ ItemDisplay[ETH UNI !ID zlb]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 ItemDisplay[!ETH UNI !ID zvb]: %RED%¤ %GOLD%%NAME% %RED%¤
 ItemDisplay[ETH UNI !ID zvb]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 //Thundergod's Vigor
-ItemDisplay[!ETH UNI !ID zhb]: %RED%¤ %GOLD%%NAME% %RED%¤
-ItemDisplay[ETH UNI !ID zhb]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
+ItemDisplay[!ETH UNI !ID zhb]: %RED%¤ %YELLOW%TGODS %RED%¤
+ItemDisplay[ETH UNI !ID zhb]: %WHITE%ETH %RED%¤ %YELLOW%TGODS %RED%¤
 
 
 //Boots
@@ -383,7 +383,7 @@ ItemDisplay[ETH UNI !ID pac]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 //ItemDisplay[UNI !ID xts]: %NAME%
 
 //Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID (rin OR amu OR jew OR ci3)]: %RED%¤ %GOLD%%NAME% %RED%¤
+ItemDisplay[UNI !ID (rin OR amu OR jew OR ci3)]: %RED%¤ %PURPLE%%NAME% %RED%¤
 
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: %WHITE%ETH %RED%%NAME% %GRAY%[%SOCKETS%]
@@ -525,11 +525,11 @@ ItemDisplay[MAG cm1 ILVL=47]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
 //
 
 //Runewords
-ItemDisplay[RW]: %WHITE%>>%GOLD%%NAME%<<%WHITE%
+ItemDisplay[RW]: %WHITE%>>%TAN%%NAME%%WHITE%<<
 
 //Charms
 ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %BLUE%%NAME%%WHITE% [L%ILVL%]
-ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %RED%¤ %GOLD%%NAME% %RED%¤%WHITE% [L%ILVL%]
+ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %RED%¤ %PURPLE%%NAME% %RED%¤%WHITE% [L%ILVL%]
 //
 
 //BASES

@@ -90,7 +90,7 @@ ItemDisplay[aq2 RARE ILVL>60]: %RED%¤ %YELLOW%%NAME% %RED%¤ %WHITE%[L%ILVL%]
 ItemDisplay[aq2 UNI ILVL>60]: %WHITE%>>> %GOLD%%NAME% %WHITE%<<< [L%ILVL%]
 ItemDisplay[aq2 SET ILVL>60]: %DGREEN%--- %GREEN%%NAME% %DGREEN%--- %WHITE%[L%ILVL%]
 ItemDisplay[cq2 MAG ILVL>60]:
-ItemDisplay[cq2 RARE ILVL>60]: %RED%¤ %YELLOW%NAME% %RED%¤ %WHITE%[L%ILVL%]
+ItemDisplay[cq2 RARE ILVL>60]: %RED%¤ %YELLOW%%NAME% %RED%¤ %WHITE%[L%ILVL%]
 ItemDisplay[cq2 UNI ILVL>60]: %WHITE%>>> %GOLD%%NAME% %WHITE%<<< [L%ILVL%]
 ItemDisplay[cq2 SET ILVL>60]: %DGREEN%¢¢¢ %GREEN%%NAME% %DGREEN%¢¢¢ %WHITE%[L%ILVL%]
 //

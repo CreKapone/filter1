@@ -1,6 +1,5 @@
 
 //Filter: Advanced
-//Version: 1.3.7
 //Created by: Kapone
 //For questions, comments, feedback, or suggestions:
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
@@ -9,7 +8,7 @@
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<2500]:
 //Health & Mana Potions
-ItemDisplay[rvl]: %WHITE%Full%PURPLE%JUV
+ItemDisplay[rvl]: %WHITE%-¯Full%PURPLE%JUV¯-
 ItemDisplay[rvs]: %WHITE%lil%PURPLE%juv
 ItemDisplay[hp4]: %WHITE%G %RED%HP
 ItemDisplay[hp5]: %WHITE%S -%RED%HP%WHITE%-
@@ -34,14 +33,14 @@ ItemDisplay[bet]: %TAN%[Diablo]%RED%Essence
 ItemDisplay[fed]: %TAN%[Baal]%GREEN%Essence
 ItemDisplay[toa]: %TAN%Respec Token
 //PoD Items
-ItemDisplay[cx5]: %PURPLE%Corruption %WHITE%Orb
+ItemDisplay[cx5]: %GREEN%**** %PURPLE%Corruption %WHITE%Orb %GREEN%****
 ItemDisplay[cx6]: %RED%Diablo's%GOLD%Soulstone
 ItemDisplay[cx7]: %GOLD%Chaos %RED%[Diablo]
-ItemDisplay[cx8]: %GREEN%Enchantment %WHITE%Orb
+ItemDisplay[cx8]: %PURPLE%**** %GREEN%Enchantment %WHITE%Orb %PURPLE%****
 ItemDisplay[cx9]: %PURPLE%%NAME%
 ItemDisplay[maz]: %PURPLE%%NAME%
 //ItemDisplay[ma1]: %PURPLE%%NAME%
-ItemDisplay[ma2]: %WHITE%%NAME% -%RED%Tier 4%WHITE%-
+ItemDisplay[ma2]: %WHITE%%NAME% -%ORANGE%Tier 4%WHITE%-
 //ItemDisplay[ma3]: %PURPLE%%NAME%
 ItemDisplay[ma4]: %WHITE%%NAME% -%GREEN%Tier 1%WHITE%-
 ItemDisplay[ma5]: %WHITE%%NAME% -%BLUE%Tier 2%WHITE%-
@@ -87,13 +86,13 @@ ItemDisplay[vps CLVL<55]: %WHITE%!%YELLOW%S
 ItemDisplay[vps CLVL>54]:
 //Hide MAGIC Quivers & Bolts above level 60
 ItemDisplay[aq2 MAG ILVL>60]:
-ItemDisplay[aq2 RARE ILVL>60]: %RED%¤ %YELLOW%%NAME% %RED%¤
-ItemDisplay[aq2 UNI ILVL>60]: %WHITE%>>> %GOLD%%NAME% %WHITE%<<<
-ItemDisplay[aq2 SET ILVL>60]: %DGREEN%--- %GREEN%%NAME% %DGREEN%---
+ItemDisplay[aq2 RARE ILVL>60]: %RED%¤ %YELLOW%%NAME% %RED%¤ %WHITE%[L%ILVL%]
+ItemDisplay[aq2 UNI ILVL>60]: %WHITE%>>> %GOLD%%NAME% %WHITE%<<< [L%ILVL%]
+ItemDisplay[aq2 SET ILVL>60]: %DGREEN%--- %GREEN%%NAME% %DGREEN%--- %WHITE%[L%ILVL%]
 ItemDisplay[cq2 MAG ILVL>60]:
-ItemDisplay[cq2 RARE ILVL>60]: %RED%¤ %YELLOW%NAME% %RED%¤
-ItemDisplay[cq2 UNI ILVL>60]: %WHITE%>>> %GOLD%%NAME% %WHITE%<<<
-ItemDisplay[cq2 SET ILVL>60]: %DGREEN%--- %GREEN%%NAME% %DGREEN%---
+ItemDisplay[cq2 RARE ILVL>60]: %RED%¤ %YELLOW%NAME% %RED%¤ %WHITE%[L%ILVL%]
+ItemDisplay[cq2 UNI ILVL>60]: %WHITE%>>> %GOLD%%NAME% %WHITE%<<< [L%ILVL%]
+ItemDisplay[cq2 SET ILVL>60]: %DGREEN%¢¢¢ %GREEN%%NAME% %DGREEN%¢¢¢ %WHITE%[L%ILVL%]
 //
 ItemDisplay[INF ILVL>14 !RW !leg]:
 
@@ -129,24 +128,24 @@ ItemDisplay[r18]: %TAN%%RUNENAME% %WHITE%[18]
 ItemDisplay[r19]: %TAN%%RUNENAME% %WHITE%[19]
 ItemDisplay[r20]: %TAN%%RUNENAME% %WHITE%[20]
 ItemDisplay[r21]: %TAN%%RUNENAME% %WHITE%[21]
-ItemDisplay[r22]: %RED%¤ %RUNENAME% ¤ %WHITE%[22]
-ItemDisplay[r23]: %RED%¤ %RUNENAME% ¤ %WHITE%[23]
+ItemDisplay[r22]: %RED%¢ %RUNENAME% ¢ %WHITE%[22]
+ItemDisplay[r23]: %RED%¢ %RUNENAME% ¢ %WHITE%[23]
 //24-33
-ItemDisplay[r24]: %RED%¤ %RUNENAME% ¤ %WHITE%[24]
-ItemDisplay[r25]: %RED%¤ %RUNENAME% ¤ %WHITE%[25]
-ItemDisplay[r26]: %RED%¤ %RUNENAME% ¤ %WHITE%[26]
+ItemDisplay[r24]: %RED%¢ %RUNENAME% ¢ %WHITE%[24]
+ItemDisplay[r25]: %RED%¢ %RUNENAME% ¢ %WHITE%[25]
+ItemDisplay[r26]: %RED%¢ %RUNENAME% ¢ %WHITE%[26]
 //ItemDisplay[r27]: %RED%%RUNENAME% %WHITE%Rune []
 //ItemDisplay[r28]: %RED%%RUNENAME% %WHITE%Rune []
 //ItemDisplay[r29]: %RED%%RUNENAME% %WHITE%Rune []
 //ItemDisplay[r30]: %RED%%RUNENAME% %WHITE%Rune []
-ItemDisplay[r31]: %RED%¤ %RUNENAME% ¤ %WHITE%[31]
-ItemDisplay[r32]: %RED%¤ %RUNENAME% ¤ %WHITE%[32]
-ItemDisplay[r33]: %RED%¤ %RUNENAME% ¤ %WHITE%[33]
+ItemDisplay[r31]: %RED%¢ %RUNENAME% ¢ %WHITE%[31]
+ItemDisplay[r32]: %RED%¢ %RUNENAME% ¢ %WHITE%[32]
+ItemDisplay[r33]: %RED%¢ %RUNENAME% ¢ %WHITE%[33]
 //High Value Runes (3.0+)
-ItemDisplay[r27]: %RED%¤%BLUE%¤ %WHITE%%RUNENAME% %BLUE%¤%RED%¤ %WHITE%[27]
-ItemDisplay[r28]: %RED%¤%BLUE%¤ %WHITE%%RUNENAME% %BLUE%¤%RED%¤ %WHITE%[28]
-ItemDisplay[r29]: %RED%¤%BLUE%¤ %WHITE%%RUNENAME% %BLUE%¤%RED%¤ %WHITE%[29]
-ItemDisplay[r30]: %RED%¤%BLUE%¤ %WHITE%%RUNENAME% %BLUE%¤%RED%¤ %WHITE%[30]
+ItemDisplay[r27]: %RED%¢%BLUE%¢%WHITE%¢ %RUNENAME% ¢%BLUE%¢%RED%¢ %WHITE%[27]
+ItemDisplay[r28]: %RED%¢%BLUE%¢%WHITE%¢ %RUNENAME% ¢%BLUE%¢%RED%¢ %WHITE%[28]
+ItemDisplay[r29]: %RED%¢%BLUE%¢%WHITE%¢ %RUNENAME% ¢%BLUE%¢%RED%¢ %WHITE%[29]
+ItemDisplay[r30]: %RED%¢%BLUE%¢%WHITE%¢ %RUNENAME% ¢%BLUE%¢%RED%¢ %WHITE%[30]
 //
 
 //misc quest
@@ -236,77 +235,76 @@ ItemDisplay[GEM=5 GEMTYPE=7]: %WHITE%!%GRAY%SKULL
 //
 
 
-
 //Uniques
 //
 //Helms
 //Griffon's Eye
-ItemDisplay[!ETH UNI !ID ci3]: %YELLOW%¤ %ORANGE%GRIFFONS %GOLD%EYE %YELLOW%¤
-ItemDisplay[ETH UNI !ID ci3]: %WHITE%ETH %YELLOW%¤ %ORANGE%GRIFFONS %GOLD%EYE %YELLOW%¤
+ItemDisplay[!ETH UNI !ID ci3]: %YELLOW%¤ %ORANGE%griffons %GOLD%eye %YELLOW%¤
+ItemDisplay[ETH UNI !ID ci3]: %WHITE%ETH %YELLOW%¤ %ORANGE%griffons %GOLD%eye %YELLOW%¤
 //Shako
-ItemDisplay[!ETH UNI !ID uap]: %PURPLE%¤ %GREEN$SHAKO %PURPLE%¤
-ItemDisplay[ETH UNI !ID uap]: %WHITE%ETH %PURPLE%¤ %GREEN%SHAKO %PURPLE%¤
+ItemDisplay[!ETH UNI !ID uap]: %PURPLE%*** %GREEN%SHAKO %PURPLE%***
+ItemDisplay[ETH UNI !ID uap]: %WHITE%ETH %PURPLE%*** %GREEN%SHAKO %PURPLE%***
 //Crown of Ages
 ItemDisplay[!ETH UNI !ID urn]: %RED%¤ %GOLD%%NAME% %RED%¤
 ItemDisplay[ETH UNI !ID urn]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 //Andariel's Visage
-ItemDisplay[!ETH UNI !ID usk]: %DGREEN%¤ %RED%ANDY'S %DGREEN%¤
-ItemDisplay[ETH UNI !ID usk]: %WHITE%ETH %DGREEN%¤ %RED%ANDY'S %DGREEN%¤
+ItemDisplay[!ETH UNI !ID usk]: %DGREEN%¢¢¢ %RED%Andy's %ORANGE%Visage %DGREEN%¢¢¢
+ItemDisplay[ETH UNI !ID usk]: %WHITE%ETH %DGREEN%¢¢¢ %RED%Andy's %ORANGE%Visage %DGREEN%¢¢¢
 //Vampire Gaze
-ItemDisplay[!ETH UNI !ID xh9]: %ORANGE%¤ %GREEN%VAMP GAZE SON %ORANGE%¤
-ItemDisplay[ETH UNI !ID xh9]: %WHITE%ETH %ORANGE%¤ %GREEN%VAMP GAZE SON %ORANGE%¤
+ItemDisplay[!ETH UNI !ID xh9]: %ORANGE%¤ %GREEN%Vamp Gaze Son %ORANGE%¤
+ItemDisplay[ETH UNI !ID xh9]: %WHITE%ETH %ORANGE%¤ %GREEN%Vamp Gaze Son %ORANGE%¤
 //Arreat's Face
-ItemDisplay[!ETH UNI !ID baa]: %RED%¤ %BLUE%ARREATS %WHITE%UGLY %BLUE%FACE %RED%¤
-ItemDisplay[ETH UNI !ID baa]: %WHITE%ETH %RED%¤ %BLUE%ARREATS %WHITE%UGLY %BLUE%FACE %RED%¤
+ItemDisplay[!ETH UNI !ID baa]: %RED%¤ %BLUE%arreats %WHITE%UGLY %BLUE%face %RED%¤
+ItemDisplay[ETH UNI !ID baa]: %WHITE%ETH %RED%¤ %BLUE%arreats %WHITE%UGLY %BLUE%face %RED%¤
 //Jalal's Mane
-ItemDisplay[!ETH UNI !ID dra]: %RED%¤ %WHITE%JALALALALA'S %RED%¤
-ItemDisplay[ETH UNI !ID dra]: %WHITE%ETH %RED%¤ %WHITE%JALALALALA'S %RED%¤
+ItemDisplay[!ETH UNI !ID dra]: %RED%ÖÖÖ %WHITE%JaLalalalal's %RED%ÖÖÖ
+ItemDisplay[ETH UNI !ID dra]: %WHITE%ETH %RED%ÖÖÖ %WHITE%JaLalalalal's %RED%ÖÖÖ
 //Ravenlore
-ItemDisplay[!ETH UNI !ID dre]: %RED%¤ %GOLD%RAVENLORE %RED%¤
-ItemDisplay[ETH UNI !ID dre]: %WHITE%ETH %RED%¤ %GOLD%RAVENLORE %RED%¤
+ItemDisplay[!ETH UNI !ID dre]: %RED%¤ %GOLD%%NAME% %RED%¤
+ItemDisplay[ETH UNI !ID dre]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 //Steelshade
-ItemDisplay[!ETH UNI !ID ulm]: %RED%¤ %BLUE%STEELSHADE YEEE %RED%¤
-ItemDisplay[ETH UNI !ID ulm]: %WHITE%ETH %RED%¤ %BLUE%STEELSHADE YEEE %RED%¤
+ItemDisplay[!ETH UNI !ID ulm]: %RED%+++ %BLUE%SteelShade Boiiiii %RED%+++
+ItemDisplay[ETH UNI !ID ulm]: %WHITE%ETH %RED%+++ %BLUE%SteelShade Boiiiii %RED%+++
 //G Face
-ItemDisplay[!ETH SET !ID xhm]: %RED%¤ %GOLD%G FACE BRUH %RED%¤
-ItemDisplay[ETH SET !ID xhm]: %WHITE%ETH %RED%¤ %GOLD%G FACE BRUH %RED%¤
+ItemDisplay[!ETH SET !ID xhm]: %RED%¤ %GOLD%%NAME% %RED%¤
+ItemDisplay[ETH SET !ID xhm]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 
 
 //Armor
 //Duriel's Shell
-ItemDisplay[!ETH UNI !ID xrs]: %RED%¤ %ORANGE%%NAME% %RED%¤
-ItemDisplay[ETH UNI !ID xrs]: %WHITE%ETH %RED%¤ %ORANGE%%NAME% %RED%¤
+ItemDisplay[!ETH UNI !ID xrs]: %YELLOW%¤ %ORANGE%%NAME% %YELLOW%¤
+ItemDisplay[ETH UNI !ID xrs]: %WHITE%ETH %YELLOW%¤ %ORANGE%%NAME% %YELLOW%¤
 //ETH Shaftstop 
-ItemDisplay[UNI !ETH !ID xhn]: %DGREEN%¤ %TAN%SHAFTY %DGREEN%¤
-ItemDisplay[UNI ETH !ID xhn]: %WHITE%ETH %DGREEN%¤ %TAN%SHAFTY %DGREEN%¤
+ItemDisplay[UNI !ETH !ID xhn]: %DGREEN%¤ %TAN%Shafty %DGREEN%¤
+ItemDisplay[UNI ETH !ID xhn]: %WHITE%ETH %DGREEN%¤ %TAN%Shafty %DGREEN%¤
 //Tyrael's Might
-ItemDisplay[UNI !ID ci3]:  %RED%¤ %BLUE%TYREALS MIGHT %RED%¤
+ItemDisplay[UNI !ID ci3]:  %PURPLE%¤¤¤ %BLUE%T-REALS %WHITE%MIGHT %PURPLE%¤¤¤
 //Guardian Angel
 ItemDisplay[!ETH UNI !ID xlt]: %RED%¤ %GOLD%%NAME% %RED%¤
 ItemDisplay[ETH UNI !ID xlt]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 //Tal Rasha Armor
-ItemDisplay[!ETH SET !ID uth]: %PURPLE%¤ %RED%TAL RASHAAA %PURPLE%¤
-ItemDisplay[ETH SET !ID uth]: %WHITE%ETH %PURPLE%¤ %RED%TAL RASHAAA %PURPLE%¤
+ItemDisplay[!ETH SET !ID uth]: %GREEN%*** %PURPLE%Tal Rashaaaa's %GREEN%***
+ItemDisplay[ETH SET !ID uth]: %WHITE%ETH %GREEN%*** %PURPLE%Tal Rashaaaa's %GREEN%***
 //Immortal King's Armor
-ItemDisplay[!ETH SET !ID uar]: %RED%¤ %GREEN%IK ARMOR %RED%¤
-ItemDisplay[ETH SET !ID uar]: %WHITE%ETH %RED%¤ %GREEN%IK ARMOR %RED%¤
+ItemDisplay[!ETH SET !ID uar]: %RED%¤ %GREEN%IK Armor %RED%¤
+ItemDisplay[ETH SET !ID uar]: %WHITE%ETH %RED%¤ %GREEN%IK Armor %RED%¤
 
 
 //Gloves
 //Dracul's Grasp
-ItemDisplay[!ETH UNI !ID uvg]: %ORANGE%¤ %RED%DRACUL'S GRASP %ORANGE%¤
-ItemDisplay[ETH UNI !ID uvg]: %WHITE%ETH %ORANGE%¤ %RED%DRACUL'S GRASP %ORANGE%¤
+ItemDisplay[!ETH UNI !ID uvg]: %ORANGE%¤ %RED%Dracul's'S Grasp %ORANGE%¤
+ItemDisplay[ETH UNI !ID uvg]: %WHITE%ETH %ORANGE%¤ %RED%Dracul's'S Grasp %ORANGE%¤
 //Steelrend
 ItemDisplay[!ETH UNI !ID uhg]: %RED%¤ %GOLD%%NAME% %RED%¤
 ItemDisplay[ETH UNI !ID uhg]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 
 //Belts
 //Arachnid Mesh
-ItemDisplay[!ETH UNI !ID ulc]: %PURPLE%¤ %RED%ARACHNID'S %PURPLE%¤
-ItemDisplay[ETH UNI !ID ulc]: %WHITE%ETH %PURPLE%¤ %RED%ARACHNID'S %PURPLE%¤
+ItemDisplay[!ETH UNI !ID ulc]: %PURPLE%××× %RED%Arachnid's %PURPLE%×××
+ItemDisplay[ETH UNI !ID ulc]: %WHITE%ETH %PURPLE%××× %RED%Arachnid's %PURPLE%×××
 //Verdungo's Hearty Cord
-ItemDisplay[!ETH UNI !ID umc]: %RED%¤ %GRAY%VERDUNGOS %RED%¤
-ItemDisplay[ETH UNI !ID umc]: %WHITE%ETH %RED%¤ %GRAY%VERDUNGOS %RED%¤
+ItemDisplay[!ETH UNI !ID umc]: %RED%¤ %GRAY%Verdungo's %RED%¤
+ItemDisplay[ETH UNI !ID umc]: %WHITE%ETH %RED%¤ %GRAY%Verdungo's %RED%¤
 //String of Ears
 ItemDisplay[!ETH UNI !ID zlb]: %ORANGE%¤ %GOLD%%NAME% %ORANGE%¤
 ItemDisplay[ETH UNI !ID zlb]: %WHITE%ETH %ORANGE%¤ %GOLD%%NAME% %ORANGE%¤
@@ -314,36 +312,36 @@ ItemDisplay[ETH UNI !ID zlb]: %WHITE%ETH %ORANGE%¤ %GOLD%%NAME% %ORANGE%¤
 ItemDisplay[!ETH UNI !ID zvb]: %RED%¤ %GOLD%%NAME% %RED%¤
 ItemDisplay[ETH UNI !ID zvb]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 //Thundergod's Vigor
-ItemDisplay[!ETH UNI !ID zhb]: %GOLD%¤ %YELLOW%TGODS %TAN%VIGOR %GOLD%¤
-ItemDisplay[ETH UNI !ID zhb]: %WHITE%ETH %GOLD%¤ %YELLOW%TGODS %TAN%VIGOR %GOLD%¤
+ItemDisplay[!ETH UNI !ID zhb]: %GOLD%¤ %YELLOW%T-Gods %TAN%Vigor %GOLD%¤
+ItemDisplay[ETH UNI !ID zhb]: %WHITE%ETH %GOLD%¤ %YELLOW%T-Gods %TAN%Vigor %GOLD%¤
 
 
 //Boots
 //War Traveler
-ItemDisplay[!ETH UNI !ID xtb]: %BLUE%¤ %WHITE%WAR TRAVS %BLUE%¤
-ItemDisplay[ETH UNI !ID xtb]: %WHITE%ETH %BLUE%¤ %WHITE%WAR TRAVS %BLUE%¤
+ItemDisplay[!ETH UNI !ID xtb]: %BLUE%¤ %WHITE%War Travs %BLUE%¤
+ItemDisplay[ETH UNI !ID xtb]: %WHITE%ETH %BLUE%¤ %WHITE%War Travs %BLUE%¤
 //Shadow Dancer
 //ItemDisplay[!ETH UNI !ID uhb]: %NAME%
 ItemDisplay[ETH UNI !ID uhb]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 //Sandstorm Trek
-ItemDisplay[UNI !ETH !ID uvb]: %TAN%¤ %GOLD%SANDTORM TREK %TAN%¤
-ItemDisplay[UNI ETH !ID uvb]: %WHITE%ETH %TAN%¤ %GOLD%SANDTORM TREK %TAN%¤
+ItemDisplay[UNI !ETH !ID uvb]: %TAN%¤ %GOLD%Sandstorm Trekky %TAN%¤
+ItemDisplay[UNI ETH !ID uvb]: %WHITE%ETH %TAN%¤ %GOLD%Sandstorm Trekky %TAN%¤
 //Aldur's
 ItemDisplay[!ETH SET !ID xtb]: %DGREEN%¤ %RED%%NAME% %DGREEN%¤
 ItemDisplay[ETH SET !ID xtb]: %WHITE%ETH %DGREEN%¤ %RED%%NAME% %DGREEN%¤
 
 //Weapons
 //Death's Fathom, Death's Web, Eschuta's, Windforce, Reaper's Toll, Lacerator, Azurewrath
-ItemDisplay[!ETH UNI !ID obf]: %RED%¤ %GOLD%%NAME% %RED%¤
-ItemDisplay[ETH UNI !ID obf]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
+ItemDisplay[!ETH UNI !ID obf]: %BLUE%**%WHITE%** %GRAY% %WHITE%**%BLUE%**
+ItemDisplay[ETH UNI !ID obf]: %WHITE%ETH %BLUE%**%WHITE%** %GRAY% %WHITE%**%BLUE%**
 //Death's Web
 ItemDisplay[!ETH UNI !ID 7gw]: %RED%¤ %GOLD%%NAME% %RED%¤
 ItemDisplay[ETH UNI !ID 7gw]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 //Eschuta's
-ItemDisplay[!ETH UNI !ID obc]: %RED%¤ %GOLD%%NAME% %RED%¤
-ItemDisplay[ETH UNI !ID obc]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
+ItemDisplay[!ETH UNI !ID obc]: %YELLOW%××%RED%×× %GOLD%Eschutaaaa %RED%××%YELLOW%××
+ItemDisplay[ETH UNI !ID obc]: %WHITE%ETH %YELLOW%××%RED%×× %GOLD%Eschutaaaa %RED%××%YELLOW%××
 //Windforce
-ItemDisplay[UNI !ID 6lw]: %RED%¤ %GOLD%%NAME% %RED%¤
+ItemDisplay[UNI !ID 6lw]: %RED%ÖÖÖ %WHITE%Wind%BLUE%Force %RED%ÖÖÖ
 //Reaper's Toll
 ItemDisplay[!ETH UNI !ID 7s8]: %RED%¤ %GOLD%%NAME% %RED%¤
 ItemDisplay[ETH UNI !ID 7s8]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
@@ -351,20 +349,27 @@ ItemDisplay[ETH UNI !ID 7s8]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 ItemDisplay[!ETH UNI !ID 7b8]: %RED%¤ %GOLD%%NAME% %RED%¤
 ItemDisplay[ETH UNI !ID 7b8]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 //Azurewrath
-ItemDisplay[!ETH UNI !ID 7cr]: %RED%¤ %GOLD%%NAME% %RED%¤
-ItemDisplay[ETH UNI !ID 7cr]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
-//Tombreaver
-//ItemDisplay[!ETH UNI !ID 7pa]: %RED%¤ %GOLD%%NAME% %RED%¤
-//ItemDisplay[ETH UNI !ID 7pa]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
+ItemDisplay[!ETH UNI !ID 7cr]: %BLUE%¢¢%YELLOW%¢¢ %WHITE%AzureWrath %YELLOW%¢¢%BLUE%¢¢
+ItemDisplay[ETH UNI !ID 7cr]: %WHITE%ETH %BLUE%¢¢%YELLOW%¢¢ %WHITE%AzureWrath %YELLOW%¢¢%BLUE%¢¢
+//Occy
+ItemDisplay[UNI !ID oba !ETH]: %BLUE%¤¤ %WHITE%The %PURPLE%Occyyy %BLUE%¤¤
+ItemDisplay[UNI !ID oba ETH]: %WHITE%ETH %BLUE%¤¤ %WHITE%The %PURPLE%Occyyy %BLUE%¤¤
 //Titan's Revenge
-ItemDisplay[!ETH UNI !ID ama]: %RED%¤ %GOLD%%NAME% %RED%¤
-ItemDisplay[ETH UNI !ID ama]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
-
+ItemDisplay[!ETH UNI !ID ama]: %YELLOW%+++ %ORANGE%Titan's %RED%Revenge %YELLOW%+++
+ItemDisplay[ETH UNI !ID ama]: %WHITE%ETH %YELLOW%+++ %ORANGE%Titan's %RED%Revenge %YELLOW%+++
+//×××××××××××
+//ÖÖÖÖÖÖÖÖÖÖÖ
+//¢¢¢¢¢¢¢¢¢¢¢
+//÷÷÷÷÷÷÷÷÷÷÷
+//***********
+//¤¤¤¤¤¤¤¤¤¤¤
+//+++++++++++
+//¯¯¯¯¯¯¯¯¯¯¯
 
 //Shields
 //Stormshield, Homunculus, Herald of Zakarum, Darkforce Spawn(+3PNB), Medusa's Gaze, Radament's Sphere
 //Stormshield
-ItemDisplay[UNI !ID uit]: %RED%¤ %WHITE%-%TAN%S%GOLD%S%WHITE%- %RED%¤
+ItemDisplay[UNI !ID uit]: %RED%¤ %WHITE%-%GOLD%SS%WHITE%- %RED%¤
 //Homunculus
 ItemDisplay[!ETH UNI !ID nea]: %RED%¤ %GOLD%Homunc %RED%¤
 ItemDisplay[ETH UNI !ID nea]: %WHITE%ETH %RED%¤ %GOLD%Homunc %RED%¤
@@ -384,7 +389,9 @@ ItemDisplay[ETH UNI !ID pac]: %WHITE%ETH %RED%¤ %GOLD%%NAME% %RED%¤
 //ItemDisplay[UNI !ID xts]: %NAME%
 
 //Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID (rin OR amu OR jew OR ci3)]: %RED%¤ %PURPLE%%NAME% %RED%¤
+ItemDisplay[UNI !ID amu]: %GOLD%÷÷÷%BLUE%÷÷÷%RED%÷÷÷ %PURPLE%AMULET %RED%÷÷÷%BLUE%÷÷÷%GOLD%÷÷÷
+ItemDisplay[UNI !ID rin]: %GOLD%÷÷÷%BLUE%÷÷÷%RED%÷÷÷ %PURPLE%RING %RED%÷÷÷%BLUE%÷÷÷%GOLD%÷÷÷
+ItemDisplay[UNI !ID jew]: %RED%°°%YELLOW%°°%GREEN%°°%BLUE%°° %PURPLE%FACET %BLUE%°°%GREEN%°°%YELLOW%°°%RED%°°
 
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: %WHITE%ETH %RED%%NAME% %GRAY%[%SOCKETS%]
@@ -424,9 +431,9 @@ ItemDisplay[MAG amu ILVL=98]: %BLUE%%NAME%%ORANGE% [CLVL 82+]%WHITE%[L%ILVL%]
 ItemDisplay[MAG amu ILVL=99]: %BLUE%%NAME%%ORANGE% [CLVL 82+]%WHITE%[L%ILVL%]
 ItemDisplay[MAG amu ILVL<85]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
-//Rings
+//Rings/Jewels
 ItemDisplay[MAG rin]: %BLUE%%NAME%%WHITE% [L%ILVL%]
-//
+ItemDisplay[MAG jew ID]: %YELLOW%ÖÖ%RED%ÖÖ%BLUE%%NAME%%WHITE%[L%ILVL%]%RED%ÖÖ%YELLOW%ÖÖ
 
 //Gloves
 //Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
@@ -526,11 +533,11 @@ ItemDisplay[MAG cm1 ILVL=47]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
 //
 
 //Runewords
-ItemDisplay[RW]: %WHITE%>>%TAN%%NAME%%WHITE%<<
+ItemDisplay[RW]: %GREEN%>>%TAN%%NAME%%GREEN%<<
 
 //Charms
 ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %BLUE%%NAME%%WHITE% [L%ILVL%]
-ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %RED%¤ %PURPLE%%NAME% %RED%¤%WHITE% [L%ILVL%]
+ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %RED%¤ %GOLD%%NAME% %RED%¤%WHITE% [L%ILVL%]
 //
 
 //BASES
@@ -1230,14 +1237,14 @@ ItemDisplay[RARE WP8 !ID ILVL>65]: %NAME% %WHITE%[L%ILVL%]
 
 //Leveling - Generic
 ItemDisplay[RARE ILVL<15]: %NAME% %WHITE%[L%ILVL%]
-ItemDisplay[!RW NMAG EQ3 ILVL<66 SOCK=2 !ETH]: %NAME% %DGREEN%[%SOCKETS%]
-ItemDisplay[!RW NMAG EQ3 ILVL<66 SOCK=3 !ETH]: %NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 ETH (ARMOR OR WEAPON)]: %WHITE%ETH %RED%%NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[!RW NORM NMAG ILVL<15 SOCK=0 ETH (ARMOR OR WEAPON)]: %WHITE%ETH %RED%%NAME%
-ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 (ARMOR OR WEAPON)]: %NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 (ARMOR OR WEAPON)]: %NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[!RW NORM NMAG ILVL<15 (ARMOR OR WEAPON)]: %NAME%
-ItemDisplay[ILVL<50 SOCK>1 !RW NMAG (ARMOR OR WEAPON)]: %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[!RW NMAG EQ3 ILVL<66 SOCK=2 !ETH]: %NAME% %DGREEN%[%SOCKETS%]%WHITE%[L%ILVL%]
+ItemDisplay[!RW NMAG EQ3 ILVL<66 SOCK=3 !ETH]: %NAME% %GRAY%[%SOCKETS%]%WHITE%[L%ILVL%]
+ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 ETH (ARMOR OR WEAPON)]: %WHITE%ETH %RED%%NAME% %GRAY%[%SOCKETS%]%WHITE%[L%ILVL%]
+ItemDisplay[!RW NORM NMAG ILVL<15 SOCK=0 ETH (ARMOR OR WEAPON)]: %WHITE%ETH %RED%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 (ARMOR OR WEAPON)]: %NAME% %GRAY%[%SOCKETS%]%WHITE%[L%ILVL%]
+ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 (ARMOR OR WEAPON)]: %NAME% %GRAY%[%SOCKETS%]%WHITE%[L%ILVL%]
+ItemDisplay[!RW NORM NMAG ILVL<15 (ARMOR OR WEAPON)]: %NAME% %WHITE%[L%ILVL%]
+ItemDisplay[ILVL<50 SOCK>1 !RW NMAG (ARMOR OR WEAPON)]: %NAME% %GRAY%[%SOCKETS%]%WHITE%[L%ILVL%]
 //ItemDisplay[ILVL<50 SOCK<2 !RW NORM NMAG (ARMOR OR WEAPON)]:
 //ItemDisplay[ILVL>14 SOCK<2 !RW NORM NMAG (ARMOR OR WEAPON)]:
 ItemDisplay[ILVL<26 NORM MAG (ARMOR OR WEAPON) !ID]: %NAME% %WHITE%[L%ILVL%]
@@ -1261,26 +1268,26 @@ ItemDisplay[ILVL<66 ELT RARE (ARMOR OR WEAPON)]: %NAME% %WHITE%[L%ILVL%]
 //RARES
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
 ItemDisplay[RARE ci0 ci1 ci2 ci3 !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤ %WHITE%[L%ILVL%]
-ItemDisplay[RARE amu !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤ %WHITE%[L%ILVL%]
-ItemDisplay[RARE rin !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤ %WHITE%[L%ILVL%]
+ItemDisplay[RARE !ID amu]: %RED%÷÷ %YELLOW%%NAME% %RED%÷÷ %WHITE%[L%ILVL%]
+ItemDisplay[RARE !ID rin]: %RED%÷÷ %YELLOW%%NAME% %RED%÷÷ %WHITE%[L%ILVL%]
 ItemDisplay[RARE EQ4 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[RARE EQ5 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[RARE EQ6 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
-ItemDisplay[RARE jew !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤ %WHITE%[L%ILVL%]
+ItemDisplay[RARE jew !ID]: %BLUE%»»%ORANGE%»» %YELLOW%%NAME% %ORANGE%»»%BLUE%»» %WHITE%[L%ILVL%]
 //
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs, Amazon Bow/Jav
-ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[RARE CL1 !ID]: %RED%**%YELLOW%%NAME%%RED%** %WHITE%[L%ILVL%]
 ItemDisplay[RARE CL2 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[RARE CL3 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[RARE CL4 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
-ItemDisplay[RARE CL5 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
-ItemDisplay[RARE CL6 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[RARE CL5 !ID]: %RED%××%YELLOW%%NAME%%RED%×× %WHITE%[L%ILVL%]
+ItemDisplay[RARE CL6 !ID]: %RED%°°%YELLOW%%NAME%%RED%°° %WHITE%[L%ILVL%]
 ItemDisplay[RARE CL7 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
 //
 //Maybe (Staff, Wand, Scepter)
-ItemDisplay[RARE WP11 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE WP12 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE WP13 !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE WP11 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[RARE WP12 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[RARE WP13 !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
 //
 //!DISABLED! Show ALL Rare ELITE Weapons !DISABLED!
 //ItemDisplay[RARE ELT WEAPON !ID]: %YELLOW%%NAME%
@@ -1314,11 +1321,11 @@ ItemDisplay[ELT RARE ARMOR !ID ILVL>84)]: %NAME% %WHITE%[L%ILVL%]
 
 //MAGIC
 //Magic Circlets
-ItemDisplay[MAG ci0 ci1 ci2 ci3 !ID]: %BLUE%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[MAG ci0 ci1 ci2 ci3 !ID]: %WHITE%^^%BLUE%%NAME%%WHITE%^^ %WHITE%[L%ILVL%]
 //Magic Vendor (Staff, Wand, Scepter)
-ItemDisplay[MAG WP11 !ID]: %BLUE%%NAME%
-ItemDisplay[MAG WP12 !ID]: %BLUE%%NAME%
-ItemDisplay[MAG WP13 !ID]: %BLUE%%NAME%
+ItemDisplay[MAG WP11 !ID]: %BLUE%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[MAG WP12 !ID]: %BLUE%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[MAG WP13 !ID]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 //Magic Maybe (Druid Pelt, Elite Assassin Claws, Sorceress Orbs
 ItemDisplay[MAG CL1 !ID]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[MAG (ELT OR EXC) CL5 !ID]: %BLUE%%NAME% %WHITE%[L%ILVL%]
@@ -2070,8 +2077,8 @@ ItemDisplay[NMAG !RW CL4 SOCK>1 ILVL>24]: %NAME% %[SOCKETS]%
 //
 
 //Catchall
-ItemDisplay[ETH SOCK>0]: %WHITE%ETH %RED%%NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[ETH SOCK=0]: %WHITE%ETH %RED%%NAME%
-ItemDisplay[SOCK>0]: %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[ETH SOCK>0]: %WHITE%ETH %RED%%NAME% %GRAY%[%SOCKETS%]%WHITE%[L%ILVL%]
+ItemDisplay[ETH SOCK=0]: %WHITE%ETH %RED%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[SOCK>0]: %NAME% %GRAY%[%SOCKETS%]%WHITE%[L%ILVL%]
 ItemDisplay[NMAG ILVL>74]:
 //ItemDisplay[]: %NAME% [%CODE%]

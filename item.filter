@@ -91,7 +91,7 @@ ItemDisplay[aq2 RARE ILVL>60]: %RED%¤ %YELLOW%%NAME% %RED%¤ %WHITE%[L%ILVL%]
 ItemDisplay[aq2 UNI ILVL>60]: %WHITE%>>> %GOLD%%NAME% %WHITE%<<< %WHITE%[L%ILVL%]
 ItemDisplay[aq2 SET ILVL>60]: %DGREEN%--- %GREEN%%NAME% %DGREEN%--- %WHITE%[L%ILVL%]
 ItemDisplay[cq2 MAG ILVL>60]:
-ItemDisplay[cq2 RARE ILVL>60]: %RED%¤ %YELLOW%%NAME% %RED%¤ %WHITE%[L%ILVL%]
+ItemDisplay[cq2 RARE ILVL>60]: %RED%¤ %YELLOW%NAME% %RED%¤ %WHITE%[L%ILVL%]
 ItemDisplay[cq2 UNI ILVL>60]: %WHITE%>>> %GOLD%%NAME% %WHITE%<<< %WHITE%[L%ILVL%]
 ItemDisplay[cq2 SET ILVL>60]: %DGREEN%--- %GREEN%%NAME% %DGREEN%--- %WHITE%[L%ILVL%]
 //
@@ -391,6 +391,53 @@ ItemDisplay[ETH UNI !ID pac]: %GRAY%E %RED%¤ %GOLD%%NAME% %RED%¤
 //ItemDisplay[UNI !ID xts]: %NAME%
 //
 
+//ØØØØØØØØØØØØØØØØØØØ
+//ÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞ
+//ßßßßßßßßßßßßßßßßßßßßß
+//××××××××××××××××××××××
+//æææææææææææææææ
+//÷÷÷÷÷÷÷÷÷÷÷÷
+//ŒŒŒŒŒŒŒŒŒŒŒŒ
+//þþþþþþþþþþþþ
+//œœœœœœœœœœœ
+//øøøøøøøøøø
+//üüüüüüüüüüüü
+//ŸŸŸŸŸŸŸŸŸŸŸŸŸ
+//†††††††††††††
+//€€€€€€€
+//‡‡‡‡‡‡‡‡‡‡‡‡
+//‰‰‰‰‰‰‰‰‰‰‰‰‰
+//——————————————
+//•••••••••••••••••
+//ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+//ÆÆÆÆÆÆÆÆÆÆÆÆÆ
+//±±±±±±±±±±±±±±±±±±
+//µµµµµµµµµµµµµµµµµ
+//²²²²²²²²²²²²²²²
+//°°°°°°°°°°°°°°ºº
+//¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶
+//³³³³³³³³³³³³³
+//§§§§§§§§§§§§
+//¥¥¥¥¥¥¥¥¥¥¥¥
+//¢¢¢¢¢¢¢¢¢¢¢¢
+//®®®®®®®®®®®®
+//¬¬¬¬¬¬¬¬¬¬¬¬
+//«««««««««««««
+//»»»»»»»»»»»»»
+//¹¹¹¹¹¹¹¹¹¹¹¹¹
+//©©©©©©©©©©©
+//¦¦¦¦¦¦¦¦¦¦¦¦
+//¨¨¨¨¨¨¨¨¨¨¨
+//ððððððððððððð
+//ööööööööööööö
+//™™™™™™™™™™™™™
+//
+//
+ItemDisplay[ID UNI cm1]: %BLACK%‰‰‰ %GOLD%%NAME% %BLACK%‰‰‰
+ItemDisplay[ID UNI cm2]: %ORANGE%öööö %GOLD%%NAME% %ORANGE%öööö
+ItemDisplay[ID UNI cm3]: %BLUE%ØØØ %GOLD%%NAME% %BLUE%ØØØ
+ItemDisplay[ID UNI cm4]: %DGREEN%®®® %GOLD%%NAME% %DGREEN%®®®
+
 //Rings Amulets Jewels Charms
 ItemDisplay[UNI !ID cm3]: %GOLD%¢¢¢¢ %RED%GHEEDS GC %GOLD%¢¢¢¢
 ItemDisplay[UNI !ID cm4]: %GOLD%¬¬¬ HORADRIM SIGIL ¬¬¬
@@ -440,7 +487,8 @@ ItemDisplay[MAG amu ILVL<85]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Rings/Jewels
 ItemDisplay[MAG rin]: %BLUE%%NAME%%WHITE% [L%ILVL%]
-ItemDisplay[MAG jew ID]: %YELLOW%ÞÞ%RED%ÞÞ%BLUE%%NAME%%WHITE%[L%ILVL%]%RED%ÞÞ%YELLOW%ÞÞ
+ItemDisplay[MAG jew !ID]: %RED%™™%GREEN%™™ %BLUE%%NAME% %GREEN%™™%RED%™™
+ItemDisplay[MAG jew ID]: %YELLOW%ðð%RED%ðð%BLUE%%NAME%%WHITE%[L%ILVL%]%RED%ðð%YELLOW%ðð
 
 //Gloves
 //Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
@@ -543,10 +591,6 @@ ItemDisplay[MAG cm1 ILVL=47]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[RW]: %WHITE%RW »»%TAN%%NAME%««
 
 //Charms
-ItemDisplay[ID UNI cm1]: %BLACK%‰‰‰ %GOLD%%NAME% %BLACK%‰‰‰
-ItemDisplay[ID UNI cm2]: %ORANGE%öööö %GOLD%%NAME% %ORANGE%öööö
-ItemDisplay[ID UNI cm3]: %BLUE%ØØØ %GOLD%%NAME% %BLUE%ØØØ
-ItemDisplay[ID UNI cm4]: %DGREEN%®®® %GOLD%%NAME% %DGREEN%®®®
 ItemDisplay[ID MAG cm1]: %DGREEN%¤ %BLUE%%NAME% %DGREEN%¤ %GRAY%[L%ILVL%]
 ItemDisplay[ID MAG cm2]: %DGREEN%¤¤ %BLUE%%NAME% %DGREEN%¤¤ %GRAY%[L%ILVL%]
 ItemDisplay[ID MAG cm3]: %DGREEN%¤¤¤ %BLUE%%NAME% %DGREEN%¤¤¤ %GRAY%[L%ILVL%]

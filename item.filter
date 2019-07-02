@@ -434,7 +434,7 @@ ItemDisplay[ETH UNI !ID pac]: %WHITE%Eth %RED%¤ %GOLD%%NAME% %RED%¤
 //
 //
 ItemDisplay[ID UNI cm1]: %BLACK%‰‰‰ %GOLD%%NAME% %BLACK%‰‰‰
-ItemDisplay[ID UNI cm2]: %ORANGE%öööö %GOLD%%ITEMSTAT83%Torch %ORANGE%öööö
+ItemDisplay[ID UNI cm2]: %ORANGE%öööö %GOLD%Hellfire Torch %ORANGE%öööö
 ItemDisplay[ID UNI cm3]: %BLUE%ØØØ %GOLD%%NAME% %BLUE%ØØØ
 ItemDisplay[ID UNI cm4]: %DGREEN%®®® %GOLD%%NAME% %DGREEN%®®®
 

@@ -61,15 +61,15 @@ ItemDisplay[mbr]: %GOLD%Mephisto's Brain
 
 //Utility
 //ItemDisplay[tsc]: %GREEN%!%WHITE%TP
-ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
+//ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
 ItemDisplay[tsc CLVL>40]:
 //ItemDisplay[isc]: %GREEN%!%WHITE%ID
-ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
+//ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
 ItemDisplay[isc CLVL>40]:
 //
-ItemDisplay[wms CLVL<60]: %WHITE%!%GOLD%T
+//ItemDisplay[wms CLVL<60]: %WHITE%!%GOLD%T
 ItemDisplay[wms CLVL>59]:
-ItemDisplay[yps]: %WHITE%!%GREEN%A
+//ItemDisplay[yps]: %WHITE%!%GREEN%A
 //ItemDisplay[yps]:
 //Keys for Locked Chests
 ItemDisplay[key]: %GRAY%keys
@@ -83,7 +83,7 @@ ItemDisplay[opl]:
 ItemDisplay[ops]:
 ItemDisplay[gps]:
 ItemDisplay[gpl]:
-ItemDisplay[vps CLVL<55]: %WHITE%!%YELLOW%S
+//ItemDisplay[vps CLVL<55]: %WHITE%!%YELLOW%S
 ItemDisplay[vps CLVL>54]:
 //Hide MAGIC Quivers & Bolts above level 60
 ItemDisplay[aq2 MAG ILVL>60]:

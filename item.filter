@@ -69,7 +69,7 @@ ItemDisplay[isc CLVL>40]:
 //
 //ItemDisplay[wms CLVL<60]: %WHITE%!%GOLD%T
 ItemDisplay[wms CLVL>59]:
-//ItemDisplay[yps]: %WHITE%!%GREEN%A
+ItemDisplay[yps]: %WHITE%!%GREEN%A
 //ItemDisplay[yps]:
 //Keys for Locked Chests
 ItemDisplay[key]: %GRAY%keys
